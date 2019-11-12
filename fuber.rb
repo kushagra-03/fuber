@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'json'
+require 'cmath'
 require 'pry'
 
 class Fuber < Sinatra::Base
