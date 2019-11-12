@@ -13,6 +13,7 @@ class Fuber < Sinatra::Base
 	end
 
   post '/bookings' do
+  	@customer = Customer.find(params[:customer_id])
 		@booking = ::Booking.new(**params)
 
 		if @booking
