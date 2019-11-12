@@ -24,7 +24,7 @@ describe Fuber do
 			let(:customer) { Customer.new(customer_id: 1, longitude: 100001, latitude: 100002) }
 
 			before do
-				post '/bookings', params: { customer_id: 1, hipster: false }
+				post '/bookings', customer_id: 1, hipster: false
 			end
 
 			it 'returns status created' do
