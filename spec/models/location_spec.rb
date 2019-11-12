@@ -6,13 +6,13 @@ describe Location do
 
 	describe '#latitude' do
 		it 'returns the latitude' do
-			expect(subject.latitude).to eq latitude
+			expect(subject.latitude).to eq 100001
 		end
 	end
 
 	describe '#longitude' do
 		it 'returns the longitude' do
-			expect(subject.longitude).to eq longitude
+			expect(subject.longitude).to eq 100002
 		end
 	end
 end
