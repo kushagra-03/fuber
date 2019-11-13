@@ -29,6 +29,6 @@ Finished in 0.02475 seconds (files took 0.10997 seconds to load)
 
 You can run the application from `fuber` by doing
 ```
-parking_lot $ rackup
+fuber $ rackup
 ```
 This will run the server and the client can then send curl/postman requests
